@@ -18,7 +18,7 @@ from inventory i
 group by film_id 
 having count(*) = 7
 
---answer []
+--answer [total films = 116; (273,951,22,556,57,644,...etc)]
 
 --QUESTION 4:
 select count(*) 
